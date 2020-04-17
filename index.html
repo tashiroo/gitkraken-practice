@@ -19,23 +19,45 @@
       </div>
     </header>
 
-    <section class="about">
+    <section class="about" id="about">
       <h2 class="about-text">about me</h2>
 
       <p class="about-text">
-        飲食店でアルバイトをしています。<br />Tシロです。<br />この度プログラミングの勉強を始めました。<br />今はHTMLとCSSの勉強をしています。<br>まだこれからの目標も具体的に決まっていませんが<br />新しいことを初め、そして達成できるようがんばっていきます。
+        飲食店でアルバイトをしています。<br />Tシロです。<br />この度プログラミングの勉強を始めました。<br />今はHTMLとCSSの勉強をしています。<br />まだこれからの目標も具体的に決まっていませんが<br />新しいことを初め、そして達成できるようがんばっていきます。
       </p>
     </section>
 
-    <section class="myskills">
+    <section class="myskills" id="skill">
       <h2>My skills</h2>
-      <ul class="myskill"></ul>
+      <ul class="myskill">
         <li class="myskills-list">HTML</li>
         <li class="myskills-list">CSS</li>
         <li class="myskills-list">bootstrap</li>
         <li class="myskills-list">javascript</li>
         <li class="myskills-list">github</li>
       </ul>
+    </section>
+    <!-- コードを増やす方法１アイコンを入れる２画像を敷き詰める３自己紹介文を増やす -->
+    <section class="do">
+      <h2>勉強したこと</h2>
+      <p class="do-text">
+        まだまだ勉強不足でやったといえることは少ないですが<br />モダンコーディングの本を読み勉強しました。<br />本を読みながらですがコードの意味や動きを考え確認しながら<br />載っているシングルページのサンプルを作ってみました。<br />ところどころ少し違うところがありますが・・・
+      </p>
+      <div class="link">
+        <a href=".//single-pege-layout/index.html" target="_blank">
+          <img
+            class="image"
+            src="https://sozai.risings.red/wp-content/uploads/2017/08/books2-300x225.png"
+            alt=""
+          />
+
+          <img
+            class="image clear"
+            src="data:image/png;base64,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"
+            alt=""
+          />
+        </a>
+      </div>
     </section>
   </body>
 </html>

@@ -40,5 +40,30 @@ body {
   display: inline-block;
   list-style-type: none;
   margin-left: 30px;
+}
 
+.do-text {
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.link {
+  display: inline-block;
+  position: relative;
+  color: aqua;
+}
+
+.image {
+  background-color: rgb(27, 27, 27);
+  position: absolute;
+
+}
+
+.clear {
+  opacity: 0;
+  transition: 0.1s;
+}
+
+.link:hover .clear {
+  opacity: 1;
 }
