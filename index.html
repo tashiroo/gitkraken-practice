@@ -1,63 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      minimum-scale="1.0"
+    />
     <title>Document</title>
+
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="header">
-      <h1 class="header-text">練習</h1>
-      <p class="header-text">
-        これはサイトアップ用の仮サイトです。<br />よろしくお願いします。
-      </p>
-
+      <!-- <p class="site-title-sub">web designer's portfolio</p>
+      <h1 class="site-title">HI, MY NAME IS …</h1>
+      <p class="site-description">Check out some of my works.</p> -->
       <div class="buttons">
-        <a class="button" href="#about">about me</a>
-        <a class="button scond" href="#skill">My skill</a>
+        <a class="button" href="#about">LEARN MORE</a>
+        <a class="button button-showy" href="#contact">SEND MESSAGE</a>
       </div>
     </header>
 
-    <section class="about" id="about">
-      <h2 class="about-text">about me</h2>
+    <main>
+      <section class="bout" id="about">
+        <h2 class="heading">はじめに</h2>
+        <p class="about-text">
+          はじめまして。飲食店でアルバイトをしていますTシロです。<br />この度思い切ってプログラミングの勉強を始めました<br />まあだこれからの目標も具体的に決まっていませんが新しいことをはじめ、達成できるようにがんばっていきます。
+        </p>
+      </section>
 
-      <p class="about-text">
-        飲食店でアルバイトをしています。<br />Tシロです。<br />この度プログラミングの勉強を始めました。<br />今はHTMLとCSSの勉強をしています。<br />まだこれからの目標も具体的に決まっていませんが<br />新しいことを初め、そして達成できるようがんばっていきます。
-      </p>
-    </section>
+      <section class="works">
+        <h2 class="heading">自己紹介</h2>
 
-    <section class="myskills" id="skill">
-      <h2>My skills</h2>
-      <ul class="myskill">
-        <li class="myskills-list">HTML</li>
-        <li class="myskills-list">CSS</li>
-        <li class="myskills-list">bootstrap</li>
-        <li class="myskills-list">javascript</li>
-        <li class="myskills-list">github</li>
-      </ul>
-    </section>
-    <!-- コードを増やす方法１アイコンを入れる２画像を敷き詰める３自己紹介文を増やす -->
-    <section class="do">
-      <h2>勉強したこと</h2>
-      <p class="do-text">
-        まだまだ勉強不足でやったといえることは少ないですが<br />モダンコーディングの本を読み勉強しました。<br />本を読みながらですがコードの意味や動きを考え確認しながら<br />載っているシングルページのサンプルを作ってみました。<br />ところどころ少し違うところがありますが・・・
-      </p>
-      <div class="link">
-        <a href=".//single-pege-layout/index.html" target="_blank">
-          <img
-            class="image"
-            src="https://sozai.risings.red/wp-content/uploads/2017/08/books2-300x225.png"
-            alt=""
-          />
+        <div class="works-wrapper">
+          <div class="work-box tree">
+            <img class="work-image" src="./images/tree.jpg" alt="政策事例１" />
+            <div class="work-description">
+              <div class="work-description-inner">
+                <p class="work-text">
+                  1988年　宮城県生まれ。
+                  <a href="#" class="button button-ghost">READ MORE</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="work-box building">
+            <img
+              class="work-image"
+              src="./images/building.jpg"
+              alt="政策事例2"
+            />
+            <div class="work-description">
+              <div class="work-description-inner">
+                <p class="work-text">
+                  趣味　歩くこと景色を見ること。<br />寝ること<br />食べること、そのために料理を作ること
+                  <a href="#" class="button button-ghost">READ MORE</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="work-box lake">
+            <img class="work-image" src="./images/lake.jpg" alt="政策事例3" />
+            <div class="work-description">
+              <div class="work-description-inner">
+                <p class="work-text">
+                  プログラミングをやろうとしたきっかけ<br />飲食店のタッチパネルでオーダーすることが難しそうな人を助ける機能をつけてみたいと思ってみたから。
+                  <a href="#" class="button button-ghost">READ MORE</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="work-box sky">
+            <img class="work-image" src="./images/sky.jpg" alt="政策事例4" />
+            <div class="work-description">
+              <div class="work-description-inner">
+                <p class="work-text">
+                  現在のスキル。<br />まだありません。HTMLとCSSを勉強中です。
+                  <a href="#" class="button button-ghost">READ MORE</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-          <img
-            class="image clear"
-            src="data:image/png;base64,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"
-            alt=""
-          />
-        </a>
-      </div>
-    </section>
+      <section class="myskills" id="skill">
+        <h2>My skills</h2>
+        <ul class="myskill">
+          <li class="myskills-list"><i class="fab fa-html5"></i> HTML5</li>
+          <li class="myskills-list"><i class="fab fa-css3"></i> CSS</li>
+          <li class="myskills-list">bootstrap</li>
+          <li class="myskills-list"><i class="fab fa-js"></i> javascript</li>
+          <li class="myskills-list"><i class="fab fa-github"></i> github</li>
+          <li class="myskills-list">
+            <i class="fab fa-gitkraken"></i> gitkraken
+          </li>
+        </ul>
+      </section>
+
+      <section class="contact" id="contact">
+        <h2 class="heading">CONTACT</h2>
+        <form class="contact-form">
+          <input type="text" name="name" placeholder="NAME" />
+          <textarea name="message" placeholder="MESSAGE"></textarea>
+          <input type="submit" value="SEND" />
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      © sample site
+    </footer>
+
+    <script src="#"></script>
   </body>
 </html>
