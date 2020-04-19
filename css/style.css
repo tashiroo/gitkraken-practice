@@ -11,7 +11,8 @@ html {
 }
 
 body {
-  background: #151515 url("../images/bg.png") no-repeat fixed left bottom;
+  background: #151515 url("../images/20140323-P3230659_TP_V.jpg") no-repeat
+    fixed left bottom;
   background-size: cover;
   color: #ffffff;
   text-align: center;
@@ -147,23 +148,23 @@ body {
   background: no-repeat;
   background-size: 100% 100%;
   opacity: 0.2;
-  transform: scaleY(-1);
+ 
 }
 
 .work-box.tree::after {
-  background-image: url("../images/tree.jpg");
+  background-image: url("../");
 }
 
 .work-box.building::after {
-  background-image: url("../images/building.jpg");
+  background-image: url("../images/");
 }
 
 .work-box.lake::after {
-  background-image: url("../images/lake.jpg");
+  background-image: url("../images/");
 }
 
 .work-box.sky::after {
-  background-image: url("../images/sky.jpg");
+  background-image: url("../images/");
 }
 
 .work-box:nth-child(odd) .work-image {
