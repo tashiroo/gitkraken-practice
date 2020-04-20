@@ -58,8 +58,6 @@ body {
 
 .about {
   padding: 80px 30px;
-  background-color: #ffffff;
-  color: #333333;
 }
 
 .heading {
@@ -101,15 +99,11 @@ body {
   margin-bottom: 20px;
 }
 
-time {
-}
-
 span {
   margin-left: 30px;
 }
 
-.prefile {
-  background-color: #383634;
+.profile {
   padding: 80px 0;
 }
 
@@ -215,6 +209,10 @@ span {
 
 .myskills {
   font-size: 6rem;
+}
+
+.skill-text {
+  font-size: 5rem;
 }
 
 .myskills-list {
