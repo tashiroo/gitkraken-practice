@@ -2,7 +2,6 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0"
@@ -16,15 +15,15 @@
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="print.css" media="print" />
   </head>
   <body>
     <header class="header">
-      <!-- <p class="site-title-sub">web designer's portfolio</p>
-      <h1 class="site-title">HI, MY NAME IS …</h1>
-      <p class="site-description">Check out some of my works.</p> -->
       <div class="buttons">
-        <a class="button" href="#about">LEARN MORE</a>
-        <a class="button button-showy" href="#contact">SEND MESSAGE</a>
+        <a class="button" href="#about">first</a>
+        <a class="button green" href="#profile">Profile</a>
+        <a class="button bule" href="#skill">My skill</a>
+        <a class="button button-showy" href="#contact">MESSAGE</a>
       </div>
     </header>
 
@@ -36,54 +35,74 @@
         </p>
       </section>
 
-      <section class="works">
+      <section class="chenji-log">
+        <h2 class="chenji-list">更新履歴</h2>
+        <ul class="log-list">
+          <li>
+            <time class="date" datetime="2020-04-21">2020.04.21 火曜</time>
+            <span class="list-title">更新</span>
+            <span class="list-text">サイトアップしました。</span>
+          </li>
+          <li></li>
+        </ul>
+      </section>
+
+      <section class="profile" id="profile">
         <h2 class="heading">自己紹介</h2>
 
-        <div class="works-wrapper">
-          <div class="work-box tree">
-            <img class="work-image" src="./images/coffee20160715115704_TP_V.jpg" alt="" />
-            <div class="work-description">
-              <div class="work-description-inner">
-                <p class="work-text">
+        <div class="profile-wrapper">
+          <div class="profile-box">
+            <img
+              class="profile-image"
+              src="./images/coffee20160715115704_TP_V.jpg"
+              alt=""
+            />
+            <div class="profile-description">
+              <div class="profile-description-inner">
+                <p class="profile-text">
                   1988年　宮城県生まれ。
-                  <a href="#" class="button button-ghost">READ MORE</a>
                 </p>
               </div>
             </div>
           </div>
-          <div class="work-box building">
+          <div class="profile-box">
             <img
-              class="work-image"
+              class="profile-image"
               src="./images/PAK75_karahurumakaron20140304_TP_V.jpg"
               alt=""
             />
-            <div class="work-description">
-              <div class="work-description-inner">
-                <p class="work-text">
+            <div class="profile-description">
+              <div class="profile-description-inner">
+                <p class="profile-text">
                   趣味　歩くこと景色を見ること。<br />寝ること<br />食べること、そのために料理を作ること
-                  <a href="#" class="button button-ghost">READ MORE</a>
                 </p>
               </div>
             </div>
           </div>
-          <div class="work-box lake">
-            <img class="work-image" src="./images/shiroTM620GFVL3424_TP_V.jpg" alt="" />
-            <div class="work-description">
-              <div class="work-description-inner">
-                <p class="work-text">
+          <div class="profile-box">
+            <img
+              class="profile-image"
+              src="./images/shiroTM620GFVL3424_TP_V.jpg"
+              alt=""
+            />
+            <div class="profile-description">
+              <div class="profile-description-inner">
+                <p class="profile-text">
                   プログラミングをやろうとしたきっかけ<br />飲食店のタッチパネルでオーダーすることが難しそうな人を助ける機能をつけてみたいと思ってみたから。
-                  <a href="#" class="button button-ghost">READ MORE</a>
                 </p>
               </div>
             </div>
           </div>
-          <div class="work-box sky">
-            <img class="work-image" src="./images/PPU_okkochitamatubokkurinoyama_TP_V.jpg" alt="" />
-            <div class="work-description">
-              <div class="work-description-inner">
-                <p class="work-text">
+          <div class="profile-box">
+            <img
+              class="profile-image"
+              src="./images/PPU_okkochitamatubokkurinoyama_TP_V.jpg"
+              alt=""
+            />
+            <div class="profile-description">
+              <div class="profile-description-inner">
+                <p class="profile-text">
                   現在の状況<br />HTMLとCSSを勉強中です。
-                  <a href="#" class="button button-ghost">READ MORE</a>
                 </p>
               </div>
             </div>
@@ -116,8 +135,12 @@
     </main>
 
     <footer class="footer">
-      © sample site
-      <a href="https://www.pakutaso.com" title="フリー写真素材ぱくたそ" >フリー写真素材ぱくたそ </a>
+      <a
+        href="https://www.pakutaso.com"
+        target="_blank"
+        title="フリー写真素材ぱくたそ"
+        >フリー写真素材ぱくたそ
+      </a>
     </footer>
 
     <script src="#"></script>
